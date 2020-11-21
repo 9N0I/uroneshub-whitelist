@@ -359,6 +359,8 @@ Close.ImageRectSize = Vector2.new(24, 24)
 			LoadBarFrame.Visible = false
 			LoadBar.Visible = false
 			wait(1)
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/9N0I/urones-hub/main/README.md'),true))()
+			wait(1)
 			print("SCRIPT LOAD.")
 			wait(1)
 			print("Version : 09.001")
